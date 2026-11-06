@@ -1,0 +1,6 @@
+{
+  "name": "Pulse - Emergency Ambulance & Hospital Dispatch Network",
+  "description": "Unified emergency coordination platform connecting ambulance drivers, hospital management, and administrators with real-time routing, traffic-signal warning alerts, and incoming-case notifications.",
+  "requestFramePermissions": ["geolocation", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

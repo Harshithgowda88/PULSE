@@ -1,0 +1,173 @@
+{
+  "drivers": {
+    "dr_1793927966844_v435f": {
+      "id": "dr_1793927966844_v435f",
+      "userId": "user_dr_1793927966844_v435f",
+      "fullName": "Test Medic Sarah Connor",
+      "vehicleNumber": "AMB-TEST-01",
+      "phoneNumber": "+15559922",
+      "approvalStatus": "approved",
+      "submissionTime": "2026-11-06T01:19:26.844Z",
+      "currentLocation": {
+        "lat": 37.7749,
+        "lng": -122.4194,
+        "accuracy": 10,
+        "lastUpdated": "2026-11-06T01:19:26.844Z"
+      },
+      "decisionTime": "2026-11-06T01:19:27.025Z",
+      "decidedByAdminId": "admin-1"
+    },
+    "dr_1793928110250_tmfg8": {
+      "id": "dr_1793928110250_tmfg8",
+      "userId": "user_dr_1793928110250_tmfg8",
+      "fullName": "Jhonny",
+      "vehicleNumber": "KA-01-AC-4559",
+      "phoneNumber": "123456789",
+      "approvalStatus": "approved",
+      "submissionTime": "2026-11-06T01:21:50.250Z",
+      "currentLocation": {
+        "lat": 12.7618914,
+        "lng": 77.4107684,
+        "accuracy": 212,
+        "isManual": false,
+        "lastUpdated": "2026-11-06T02:12:18.676Z"
+      },
+      "decisionTime": "2026-11-06T01:22:06.921Z",
+      "decidedByAdminId": "admin-1"
+    }
+  },
+  "hospitals": {
+    "hosp_1793927964199_2t2h6": {
+      "id": "hosp_1793927964199_2t2h6",
+      "userId": "user_hosp_1793927964199_2t2h6",
+      "hospitalName": "Hospital A - Apex Trauma Center",
+      "identificationNumber": "9900000001",
+      "contactPhone": "+1-555-0101",
+      "email": "hospital-a@pulse.local",
+      "passwordHash": "$2b$10$vS3vkXBpW81WTlmQhOJh7OdKqVzpaIeoYR8KVNIb52nX/pS6SQX3u",
+      "fullAddress": "100 Medical Plaza, District 1",
+      "location": {
+        "lat": 37.7749,
+        "lng": -122.4194,
+        "originalLink": "",
+        "confirmedAt": "2026-11-06T01:19:24.304Z"
+      },
+      "departments": [
+        "Emergency medicine",
+        "Cardiology",
+        "Orthopaedics",
+        "Neurology",
+        "General surgery"
+      ],
+      "facilities": [
+        "CT scan",
+        "MRI",
+        "ECG",
+        "X-ray",
+        "ICU",
+        "Operation theatre",
+        "24-hour emergency care"
+      ],
+      "emergencyHours": "24/7 All Days",
+      "is24HourEmergency": true,
+      "shortDescription": "Level 1 Trauma Center with 24/7 Cardiology catheterization lab and Orthopedics department.",
+      "supportingDocName": "Hospital_Accreditation_Proof.pdf",
+      "approvalStatus": "approved",
+      "submissionTime": "2026-11-06T01:19:24.304Z",
+      "decisionTime": "2026-11-06T01:19:26.447Z",
+      "decidedByAdminId": "admin-1"
+    },
+    "hosp_1793927966187_1ibnz": {
+      "id": "hosp_1793927966187_1ibnz",
+      "userId": "user_hosp_1793927966187_1ibnz",
+      "hospitalName": "Hospital B - St. Jude Community Clinic",
+      "identificationNumber": "9900000002",
+      "contactPhone": "+1-555-0102",
+      "email": "hospital-b@pulse.local",
+      "passwordHash": "$2b$10$.yrzpPNWLRSnSNELLKMYFueka0evZP6C7Ny7x.Izeb8engajBqFaK",
+      "fullAddress": "800 Valley Road, District 2",
+      "location": {
+        "lat": 37.788,
+        "lng": -122.4075,
+        "originalLink": "",
+        "confirmedAt": "2026-11-06T01:19:26.284Z"
+      },
+      "departments": [
+        "General medicine",
+        "Paediatrics"
+      ],
+      "facilities": [
+        "X-ray",
+        "Laboratory testing"
+      ],
+      "emergencyHours": "08:00 - 20:00",
+      "is24HourEmergency": false,
+      "shortDescription": "",
+      "supportingDocName": "Hospital_Accreditation_Proof.pdf",
+      "approvalStatus": "approved",
+      "submissionTime": "2026-11-06T01:19:26.284Z",
+      "decisionTime": "2026-11-06T01:19:26.640Z",
+      "decidedByAdminId": "admin-1"
+    },
+    "hosp_1793931146890_ekzt0": {
+      "id": "hosp_1793931146890_ekzt0",
+      "userId": "user_hosp_1793931146890_ekzt0",
+      "hospitalName": "Manipal Emergency Care",
+      "identificationNumber": "1234567890",
+      "contactPhone": "+91-98765-43210",
+      "email": "manipal@hospital.test",
+      "passwordHash": "$2b$10$i42h/Ay6vRAs7G9dbyfnQOjASYsgX/pRc5V85idGEjhtr1iAGVmwy",
+      "fullAddress": "Ambulance Entrance GPS: 12.97160, 77.59460",
+      "location": {
+        "lat": 12.9716,
+        "lng": 77.5946,
+        "originalLink": "https://maps.google.com/?q=12.9716,77.5946",
+        "confirmedAt": "2026-11-06T02:12:27.008Z"
+      },
+      "departments": [
+        "Cardiology",
+        "Orthopaedics",
+        "Emergency medicine"
+      ],
+      "facilities": [
+        "ICU",
+        "CT scan",
+        "ECG",
+        "X-ray",
+        "24-hour emergency care"
+      ],
+      "emergencyHours": "24/7 Emergency Care",
+      "is24HourEmergency": true,
+      "shortDescription": "Comprehensive cardiology and orthopaedic trauma care center.",
+      "supportingDocName": "Hospital_Accreditation_Proof.pdf",
+      "approvalStatus": "approved",
+      "submissionTime": "2026-11-06T02:12:27.009Z",
+      "decisionTime": "2026-11-06T02:20:00.000Z",
+      "decidedByAdminId": "admin-1"
+    }
+  },
+  "journeys": {},
+  "notifications": {},
+  "warningBoardEvents": [
+    {
+      "id": "event_1793930747412_1x0s",
+      "boardId": "VIRTUAL_BOARD_Signal_A",
+      "journeyId": "jrn_demo_sim",
+      "signalId": "alt_sig_demo_1",
+      "action": "ACTIVATE",
+      "message": "EMERGENCY AMBULANCE APPROACHING - YIELD RIGHT OF WAY",
+      "timestamp": "2026-11-06T02:05:47.412Z",
+      "direction": "Northbound Emergency Corridor",
+      "acknowledged": true
+    }
+  ],
+  "admins": {
+    "admin-1": {
+      "id": "admin-1",
+      "email": "admin@pulse.local",
+      "passwordHash": "$2b$10$51LdybpK/Jv0P8kbfXuJ/eEOuw7tbOKLZ7hGSkbWhRfJ/cqS/6R.G",
+      "name": "Pulse System Administrator",
+      "role": "admin"
+    }
+  }
+}
